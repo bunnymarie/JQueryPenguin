@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $(".clickable").click(function() {
-    $("#penguin-showing").toggle();
-    $("#penguin-hidden").toggle();
+    $("#penguin-showing").slideToggle();
+    $("#penguin-hidden").fadeToggle();
   });
 });
